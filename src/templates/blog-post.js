@@ -1,0 +1,133 @@
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import get from 'lodash/get'
+
+import Layout from '../components/Layout'
+import Subscribe from '../components/Subscribe'
+import Support from '../components/Support'
+import SEO from '../components/SEO'
+import Footer from '../components/Footer'
+import { formatReadingTime } from '../utils/helpers'
+import { rhythm, scale } from '../utils/typography'
+
+class BlogPostTemplate extends React.Component {
+  render() {
+    const post = this.props.data.markdownRemark
+    const siteMetadata = get(this.props, 'data.site.siteMetadata')
+    const { previous, next, slug } = this.props.pageContext
+    const editUrl = `https://github.com/${siteMetadata.gitOrg}/${siteMetadata.siteUrl}/edit/master/src/pages/${slug.replace(
+      /\//g,
+      ''
+    )}.md`
+    let discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
+      `${siteMetadata.siteUrl}${slug}`
+    )}`
+    return (
+      <Layout location={this.props.location} title={siteMetadata.title}>
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description}
+          slug={post.fields.slug}
+          embedUrl={post.frontmatter.embedUrl}
+        />
+
+        <Support />
+      
+        <Subscribe />
+
+        {
+          <iframe
+            src={`https://share.transistor.fm/e/${post.frontmatter.episodeLink}`}
+            width="100%"
+            height="180"
+            frameBorder="0"
+            scrolling="no"
+            seamless
+          ></iframe>
+        }
+
+        <blockquote>{post.frontmatter.description}</blockquote>
+
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <p>
+          <a href={discussUrl} target="_blank" rel="noopener noreferrer">
+            Discuss on Twitter
+          </a>
+          {` • `}
+          <a href={editUrl} target="_blank" rel="noopener noreferrer">
+            Edit on GitHub
+          </a>
+        </p>
+        <h3
+          style={{
+            fontFamily: 'Montserrat, sans-serif',
+            marginTop: rhythm(0.25),
+          }}
+        />
+        <div
+          style={{
+            display: 'flex',
+            marginBottom: rhythm(2.5),
+          }}
+        />
+        <ul
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'space-between',
+            listStyle: 'none',
+            padding: 0,
+          }}
+        >
+          <li>
+            {previous && (
+              <Link to={previous.fields.slug} rel="prev">
+                ← {previous.frontmatter.title}
+              </Link>
+            )}
+          </li>
+          <li>
+            {next && (
+              <Link to={next.fields.slug} rel="next">
+                {next.frontmatter.title} →
+              </Link>
+            )}
+          </li>
+        </ul>
+      <Footer />
+      </Layout>
+    )
+  }
+}
+
+export default BlogPostTemplate
+
+export const pageQuery = graphql`
+  query BlogPostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        author
+        gitOrg
+        siteUrl
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
+      html
+      timeToRead
+      frontmatter {
+        title
+        time
+        date(formatString: "MMMM DD, YYYY")
+        description
+        episodeLink
+        embedUrl
+      }
+      fields {
+        slug
+      }
+    }
+  }
+`
