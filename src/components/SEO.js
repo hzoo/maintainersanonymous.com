@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import cover from '../assets/icon.jpg'
+import { siteMetadata } from '../../gatsby-config.js';
 
 const query = graphql`
   query GetSiteMetadata {
@@ -23,7 +24,7 @@ const query = graphql`
   }
 `
 
-function SEO({ meta, image=cover, title, description, slug, appId=1437677655, embedUrl }) {
+function SEO({ meta, image=cover, title, description, slug, appId, embedUrl }) {
   return (
     <StaticQuery
       query={query}
@@ -44,10 +45,6 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                   title: siteMetadata.title,
                 })}
             meta={[
-              {
-                name: 'google-site-verification',
-                content: 'Zku-i0wV0xj4F39Ru1NIJrVweRDop37mEJUYhbh4PXI',
-              },
               {
                 name: 'description',
                 content: metaDescription,
@@ -106,7 +103,7 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                   ? [
                       {
                         name: 'apple-itunes-app',
-                        content: `app-id=${appId}`,
+                        content: `app-id=${appId || siteMetadata.feed.apple.split('/')[6].slice(2)}`,
                       },
                     ]
                   : []

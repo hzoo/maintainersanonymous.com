@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { siteMetadata } from '../../gatsby-config.js';
 
 class Support extends React.Component {
   render() {
@@ -15,10 +16,10 @@ class Support extends React.Component {
             }}
             to={'/'}
           >
-            <i>The Babel Podcast</i>
+            <i>{siteMetadata.title}</i>
           </Link>{' '}<br/>
           is made possible by the support of patrons.<br/>Consider becoming a{' '}
-        <a href="https://www.opencollective.com/babel">supporter</a> today!
+        <a href={siteMetadata.sponsorUrl}>supporter</a> today!
       </p>
     )
   }

@@ -1,20 +1,24 @@
-module.exports = {
-  siteMetadata: {
-    title: 'The Babel Podcast',
-    author: 'Henry Zhu',
-    description: `Henry Zhu chats with other members of the team, TC39, and the JS community about the future of JavaScript, open source, and how it's all maintained.`,
-    gitOrg: 'hzoo',
-    siteUrl: 'podcast.babeljs.io',
-    social: {
-      twitter: '@left_pad',
-    },
-    feed: {
-      rss: 'https://feeds.transistor.fm/the-babel-podcast',
-      google: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL3RoZS1iYWJlbC1wb2RjYXN0',
-      apple: 'https://podcasts.apple.com/us/podcast/the-babel-podcast/id1470143101',
-      spotify: 'https://open.spotify.com/show/3TK8x8AGckeEQEtnJVZYAz',
-    },
+var siteMetadata = {
+  title: 'Maintainers Anonymous',
+  author: 'Henry Zhu',
+  description: 'A podcast about sharing our lives as people, as maintainers.',
+  gitOrg: 'hzoo',
+  siteUrl: 'maintainersanonymous.com',
+  social: {
+    twitter: '@left_pad',
+    github: 'hzoo'
   },
+  feed: {
+    rss: 'https://feeds.transistor.fm/maintainers-anonymous',
+    google: 'https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL21haW50YWluZXJzLWFub255bW91cw%3D%3D',
+    apple: 'https://itunes.apple.com/us/podcast/maintainers-anonymous/id1459347058',
+    spotify: 'https://open.spotify.com/show/1rvrUipEYmYOt2EZoL0uWm',
+  },
+  sponsorUrl: 'https://github.com/users/hzoo/sponsorship',
+};
+
+module.exports = {
+  siteMetadata,
   pathPrefix: '/',
   plugins: [
     {
@@ -64,8 +68,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `The Babel Podcast`,
-        short_name: `The Babel Podcast`,
+        name: siteMetadata.title,
+        short_name: siteMetadata.title,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

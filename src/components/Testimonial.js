@@ -7,7 +7,7 @@ class Testimonial extends React.Component {
         <h3 style={{ textAlign: "center" }}>Praise</h3>
       </a>
       
-      <blockquote className="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">Really been enjoying the Hope in Source podcast from <a href="https://twitter.com/nayafia?ref_src=twsrc%5Etfw">@nayafia</a> and <a href="https://twitter.com/left_pad?ref_src=twsrc%5Etfw">@left_pad</a>.</p>&mdash; Nicholas C. Zakas (@slicknet) <a href="https://twitter.com/slicknet/status/1059181425184755713?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote>
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Nice initiative! We need more diverse points of view about software maintainance. Cc <a href="https://twitter.com/The_Maintainers?ref_src=twsrc%5Etfw">@The_Maintainers</a> <a href="https://t.co/NU5VPznqM1">https://t.co/NU5VPznqM1</a></p>&mdash; Bastien Guerry (@bzg2) <a href="https://twitter.com/bzg2/status/1116428767210164225?ref_src=twsrc%5Etfw">April 11, 2019</a></blockquote>
     </>
   }
 }

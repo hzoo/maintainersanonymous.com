@@ -1,13 +1,13 @@
 {
-  "name": "podcast.babeljs.io",
+  "name": "maintainersanonymous.com",
   "private": true,
-  "description": "Babel Podcast website",
+  "description": "Maintainers Anonymous website",
   "version": "1.0.0",
   "author": "Henry Zhu <hi@henryzoo.com>",
   "bugs": {
-    "url": "https://github.com/hzoo/podcast.babeljs.io/issues"
+    "url": "https://github.com/hzoo/maintainersanonymous.com/issues"
   },
-  "homepage": "https://podcast.babeljs.io",
+  "homepage": "https://maintainersanonymous.com",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-plugin-feed": "^2.0.8",
