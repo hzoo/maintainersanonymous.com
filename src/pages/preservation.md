@@ -9,6 +9,9 @@ embedUrl: https://share.transistor.fm/s/68b9a175
 
 ## Links (WIP)
 
+- [Wendy Hagenmaier](https://www.library.gatech.edu/wendy-hagenmaier)
+- [Fostering Communities of Practice](https://www.softwarepreservationnetwork.org/fcop) (part of [Software Preservation Network](https://www.softwarepreservationnetwork.org))
+
 ## Transcript
 
 > ([edit link](https://github.com/hzoo/maintainersanonymous.com/edit/master/src/pages/preservation.md))
