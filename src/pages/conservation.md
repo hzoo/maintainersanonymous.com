@@ -7,10 +7,19 @@ episodeLink: cde0eb06
 embedUrl: https://share.transistor.fm/s/cde0eb06
 ---
 
-## Links (WIP)
+## Links
 
 - [Jonathan](https://twitter.com/jfarbowitz)
 - [Guggenheim](https://twitter.com/Guggenheim)
+- [Unfolding Object](http://unfoldingobject.guggenheim.org), [(blog)](https://www.guggenheim.org/blogs/checklist/the-guggenheim-restores-john-f-simon-jr-early-web-artwork-unfolding-object) an artwork mentioned in the episode
+- [Guggenheim’s Conserving Computer-based Art initiative (CCBA)
+](https://www.guggenheim.org/blogs/checklist/how-the-guggenheim-and-nyu-are-conserving-computer-based-art-part-1)
+- [Fostering a Community of Practice: Software Preservation Project](https://www.softwarepreservationnetwork.org/fcop/
+) cohort that Jonathan and Wendy are a part of
+- [Emulation as a Service and EaaSI Project](https://www.softwarepreservationnetwork.org/eaasi)
+- [vrecord](https://github.com/amiaopensource/vrecord
+) (open source video digitization software)
+- [Rhizome’s Webrecorder](https://webrecorder.io)
 
 ## Transcript
 
