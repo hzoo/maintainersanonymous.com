@@ -7,7 +7,11 @@ episodeLink: 8d4a63a5
 embedUrl: https://share.transistor.fm/s/8d4a63a5
 ---
 
-## Links (WIP)
+## Links
+
+- [Speedrun Science](https://www.fangamer.com/products/speedrun-book), Eric's new book
+- [Speedrun Perspectives, A Quick Look at Fast Gaming](https://www.youtube.com/watch?v=145EqyR_MYo), Eric's talk at Google
+- [Twitch: Omnigamer](https://www.twitch.tv/omnigamer), Eric's Twitch channel
 
 ## Transcript
 
@@ -314,5 +318,3 @@ embedUrl: https://share.transistor.fm/s/8d4a63a5
 1:25:05 **Henry**: Thanks!
 
 1:25:06 **Omnigamer**: Thank you so much Henry.
-
-(outro music) Thanks for listening! Check out our website, maintainersanonymous.com for show notes and transcripts. If you have any feedback, ideas, or guest suggestions, you can reach me on twitter @left_pad. If you’d like to support the show you can visit patreon.com/henryzhu
