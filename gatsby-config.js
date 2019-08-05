@@ -3,6 +3,7 @@ var siteMetadata = {
   author: 'Henry Zhu',
   description: 'A podcast about sharing our lives as people, as maintainers.',
   gitOrg: 'hzoo',
+  gitRepo: 'maintainersanonymous.com',
   siteUrl: 'https://maintainersanonymous.com',
   social: {
     twitter: '@left_pad',
