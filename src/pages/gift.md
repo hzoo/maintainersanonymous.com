@@ -2,7 +2,7 @@
 title: "12: Maggie Appleton on Open Source as Gift"
 date: '2020-03-05'
 time: '55'
-description: ""
+description: "How do we view open source? Maggie Appleton joins Henry to discuss open source as a gift economy (versus a market economy), why we participate in open source and exchange gifts, rituals and habits, patronage and crowdfunding, quantified self and disembodiment, our role in tech"
 episodeLink: 9d389287
 embedUrl: https://share.transistor.fm/s/9d389287
 ---
