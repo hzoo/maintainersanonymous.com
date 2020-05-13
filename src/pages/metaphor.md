@@ -8,6 +8,26 @@ embedUrl: https://share.transistor.fm/s/33bb512b
 ---
 
 ## Links
+- Building a Second Brain
+- Metaphors We Live By
+- Cognitive Metaphor Theory
+- Michael Polanyi, focal subsidiary integration
+- The Body Keeps the Score
+- Programming as Theory Building
+- [What Games Are Like For Someone Who Doesn't Play Games](https://www.youtube.com/watch?v=ax7f3JZJHSw)
+- Gonzo journalism
+- auto ethnography, etic, and emic
+- 20 Years of JavaScript
+- Purity and Danger
+- dead metaphors
+- Tim Rohrer
+- The Medium is the Message
+- Natural Born Cyborgs (Andy Clark)
+- cybernetics
+- anthropomorphization
+- The Cat and The Toaster
+- The Death and Life of Great American Cities. So she uses the same kind
+- How to Talk About Books You Haven't Read
 
 ## Transcript
 
