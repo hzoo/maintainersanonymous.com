@@ -2,13 +2,15 @@
 title: "14: Jordan Scales on Nostalgia and Not Taking Yourself Too Seriously"
 date: '2020-05-26'
 time: '76'
-description: "Why attempt to faithfully recreate the past? Jordan Scales joins Henry to chat about design systems, being pixel perfect, accessibility the Microsoft Windows User Experience reference manual, using VMs, MSPaint and Figma, whimsy and having fun with coding, creating satire at no one's expense, and even how Babel's Guy Fieri meme could of been Jeff Goldblum in another universe."
+description: "Why attempt to faithfully recreate the past? Jordan Scales joins Henry to chat about design systems, being pixel perfect, accessibility, the Microsoft Windows User Experience reference manual, using VMs, MSPaint and Figma, whimsy and having fun with coding, creating satire at no one's expense, and even how Babel's Guy Fieri meme could of been Jeff Goldblum in another universe."
 episodeLink: e7a1abae
 embedUrl: https://share.transistor.fm/s/e7a1abae
 ---
 
 ## Links
 - [98.css](https://jdan.github.io/98.css/)
+- [Jordan's 98.css Blog Post](https://thatjdanisso.cool/98-dot-css)
+- [Microsoft Windows User Experience Reference Manual](https://www.amazon.com/Microsoft-Windows-Experience-Professional-Editions/dp/0735605661)
 
 ## Transcript
 
