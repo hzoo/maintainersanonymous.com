@@ -1,5 +1,5 @@
 ---
-title: "12: Maggie Appleton on Open Source as a Gift Economy"
+title: "11: Maggie Appleton on Open Source as a Gift Economy"
 date: '2020-03-05'
 time: '55'
 description: "Is the open source community a gift economy? What even is a gift? Maggie Appleton joins Henry to discuss open source as a gift economy (versus a market economy), why we participate in open source and exchange gifts, rituals and habits, patronage and crowdfunding, quantified self and disembodiment, our role in tech"
